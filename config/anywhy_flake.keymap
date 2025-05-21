@@ -19,15 +19,15 @@
         };
 
         enter_gaming {
-            bindings = <&sl 3>;
+            bindings = <&to 3>;
             key-positions = <26 15 28>;
             layers = <2>;
         };
 
         leave_gaming {
-            bindings = <&sl 0>;
-            key-positions = <11 10 9>;
-            layers = <4>;
+            bindings = <&to 0>;
+            key-positions = <23 22 21>;
+            layers = <3>;
         };
 
         bckspc {
