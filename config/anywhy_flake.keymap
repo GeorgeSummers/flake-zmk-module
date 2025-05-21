@@ -146,7 +146,7 @@
 &kp GRAVE  &kp N1            &kp N2            &kp N3      &kp NUMBER_4  &kp N5                   &kp N6           &kp N7  &kp N8  &kp N9  &kp N0               &kp MINUS
 &none      &kp LEFT          &kp DOWN          &kp UP      &kp RIGHT     &kp LEFT_PARENTHESIS     &kp EXCLAMATION  &kp N4  &kp N5  &kp N6  &kp BSPC             &kp EQUAL
 &none      &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(N3)  &kp LS(N4)    &kp RIGHT_PARENTHESIS    &kp QUESTION     &kp N1  &kp N2  &kp N3  &kp BSLH             &kp FSLH
-           &trans            &trans            &trans      &trans        &none                    &none            &trans  &trans  &kp N0  &kp LA(PRINTSCREEN)
+           &kt LSHIFT        &trans            &trans      &trans        &mo 2                    &mo 2            &trans  &trans  &kp N0  &kp LA(PRINTSCREEN)
             >;
         };
 
