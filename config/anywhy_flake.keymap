@@ -6,18 +6,6 @@
     combos {
         compatible = "zmk,combos";
 
-        bt_sel_3 {
-            bindings = <&bt3>;
-            key-positions = <42 30>;
-            layers = <2>;
-        };
-
-        bt_sel_4 {
-            bindings = <&bt4>;
-            key-positions = <30 18>;
-            layers = <2>;
-        };
-
         enter_gaming {
             bindings = <&to 3>;
             key-positions = <26 15 28>;
