@@ -33,11 +33,13 @@
         shift-insert {
             bindings = <&kp LS(INSERT)>;
             key-positions = <20 55>;
+            layers = <0>;
         };
 
         ctrl-insert {
             bindings = <&kp LC(INS)>;
             key-positions = <36 20>;
+            layers = <0>;
         };
     };
 
