@@ -186,7 +186,7 @@
 &kp ESC  &none      &kp Q  &kp W     &kp E      &kp R    &none  &none      &none     &none          &none  &none
 &kp TAB  &kp LSHFT  &kp A  &kp S     &kp D      &kp F    &none  &none      &kp UP    &none          &none  &none
 &none    &kp LCTRL  &kp Z  &kp X     &kp C      &kp V    &none  &kp LEFT   &kp DOWN  &kp RIGHT      &none  &none
-         &none      &none  &kp LALT  &kp SPACE  &none    &none  &kp ENTER  &none     &kp BACKSPACE  &none
+         &none      &none  &kp LALT  &kp SPACE  &none    &to 3  &kp ENTER  &none     &kp BACKSPACE  &none
             >;
         };
     };
