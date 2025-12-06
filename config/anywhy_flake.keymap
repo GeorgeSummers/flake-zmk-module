@@ -58,6 +58,17 @@
             key-positions = <50 24>;
             layers = <0>;
         };
+
+        underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <34 35>;
+            layers = <0>;
+        };
+
+        bs_c {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <47 46>;
+        };
     };
 
     macros {
@@ -181,7 +192,7 @@
 &none             &none     &none          &none        &none         &none                    &none                  &none   &none   &none   &none                &none
 &kp GRAVE         &kp N1    &kp N2         &kp N3       &kp NUMBER_4  &kp N5                   &kp N6                 &kp N7  &kp N8  &kp N9  &kp N0               &kp MINUS
 &kp END           &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT     &kp LEFT_PARENTHESIS     &kp LEFT_PARENTHESIS   &kp N4  &kp N5  &kp N6  &kp UNDERSCORE       &kp EQUAL
-&kp LEFT_CONTROL  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END       &kp RIGHT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp N1  &kp N2  &kp N3  &kp N7               &kp BACKSLASH
+&kp LEFT_CONTROL  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END       &kp RIGHT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp N1  &kp N2  &kp N3  &kp LS(N7)           &kp BACKSLASH
                   &kp TAB   &kp INS        &trans       &trans        &mo 2                    &mo 2                  &trans  &trans  &kp N0  &kp LA(PRINTSCREEN)
             >;
         };
