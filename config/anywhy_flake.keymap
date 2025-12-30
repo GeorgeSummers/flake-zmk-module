@@ -19,12 +19,6 @@
             layers = <3 5>;
         };
 
-        bckspc {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <23 22>;
-            layers = <0>;
-        };
-
         escape {
             bindings = <&kp ESC>;
             key-positions = <12 13>;
@@ -48,8 +42,8 @@
             key-positions = <24 25>;
         };
 
-        Del_c {
-            bindings = <&kp DELETE>;
+        App_c {
+            bindings = <&kp K_APPLICATION>;
             key-positions = <57 56>;
         };
 
@@ -59,7 +53,7 @@
             layers = <0>;
         };
 
-        underscore {
+        us_c {
             bindings = <&kp UNDERSCORE>;
             key-positions = <34 35>;
             layers = <0>;
@@ -179,11 +173,11 @@
 
         base {
             bindings = <
-&none           &none    &none         &none         &none      &none    &none             &none      &none            &none          &none      &none
-&kp GRAVE       &kp Q    &kp W         &kp E         &kp R      &kp T    &kp Y             &kp U      &kp I            &kp O          &kp P      &kp LEFT_BRACKET
-&kp LEFT_SHIFT  &kp A    &kp S         &kp D         &kp F      &kp G    &kp H             &kp J      &kp K            &kp L          &kp SEMI   &kp APOS
-&kp LCTRL       &kp Z    &kp X         &kp C         &kp V      &kp B    &kp N             &kp M      &kp COMMA        &kp DOT        &kp FSLH   &kp RBKT
-                &kp TAB  &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE  &mo 1    &lm 1 LEFT_SHIFT  &kp ENTER  &kp RIGHT_SHIFT  &kp BACKSPACE  &kp K_APP
+&none           &none    &none         &none         &none      &none    &none             &none      &none            &none          &none       &none
+&kp GRAVE       &kp Q    &kp W         &kp E         &kp R      &kp T    &kp Y             &kp U      &kp I            &kp O          &kp P       &kp LEFT_BRACKET
+&kp LEFT_SHIFT  &kp A    &kp S         &kp D         &kp F      &kp G    &kp H             &kp J      &kp K            &kp L          &kp SEMI    &kp APOS
+&kp LCTRL       &kp Z    &kp X         &kp C         &kp V      &kp B    &kp N             &kp M      &kp COMMA        &kp DOT        &kp FSLH    &kp RBKT
+                &kp TAB  &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE  &mo 1    &lm 1 LEFT_SHIFT  &kp ENTER  &kp RIGHT_SHIFT  &kp BACKSPACE  &kp DELETE
             >;
         };
 
